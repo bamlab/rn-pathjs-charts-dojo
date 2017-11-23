@@ -7,6 +7,8 @@ import { Page } from 'RNPathjsChartsDojo/src/components';
 
 import styles from './Home.style';
 
+import DataView from './DataView';
+
 export default class Home extends Component {
   static navigationOptions = {
     title: 'Home',
@@ -15,18 +17,9 @@ export default class Home extends Component {
 
   render() {
     return (
-      <Page>
+      <Page noMargin noNavBar>
         <View style={styles.container}>
-          <Text style={styles.welcome}>
-            Welcome to React Native!
-          </Text>
-          <Text style={styles.instructions}>
-            This is the Home page
-          </Text>
-          <Text style={styles.instructions}>
-            Double tap R on your keyboard to reload,{'\n'}
-            Shake or press menu button for dev menu
-          </Text>
+          <DataView />
         </View>
       </Page>
     );

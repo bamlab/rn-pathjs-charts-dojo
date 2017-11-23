@@ -8,16 +8,7 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  welcome: {
-    ...theme.fonts.header,
-    textAlign: 'center',
-    margin: theme.grid.x1,
-  },
-  instructions: {
-    ...theme.fonts.default,
-    textAlign: 'center',
-    color: theme.colors.darkGray,
-    marginBottom: theme.grid.x1,
+    backgroundColor: '#F86422',
+    paddingTop: theme.grid.x2,
   },
 });
