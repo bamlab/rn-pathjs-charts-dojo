@@ -9,6 +9,7 @@
 	"dependencies": {
 		"react": "16.0.0",
 		"react-native": "0.50.3",
+		"react-native-pathjs-charts": "https://github.com/capitalone/react-native-pathjs-charts.git",
 		"react-navigation": "^1.0.0-beta.21"
 	},
 	"devDependencies": {
