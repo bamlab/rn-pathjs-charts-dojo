@@ -7,7 +7,7 @@ export default class Graph extends Component {
   options = {
     width: 250,
     height: 250,
-    color: '#2980B9',
+    color: '#FFFFFF',
     margin: {
       top: 10,
       left: 35,
@@ -21,6 +21,7 @@ export default class Graph extends Component {
     axisX: {
       showAxis: true,
       showLines: true,
+      gridColor: '#FFFFFF',
       showLabels: true,
       showTicks: true,
       zeroAxis: false,
@@ -30,10 +31,11 @@ export default class Graph extends Component {
         fontFamily: 'Arial',
         fontSize: 8,
         fontWeight: true,
-        fill: '#34495E'
+        fill: '#FFFFFF'
       }
     },
     axisY: {
+      gridColor: '#FFFFFF',
       showAxis: true,
       showLines: true,
       showLabels: true,
@@ -45,7 +47,7 @@ export default class Graph extends Component {
         fontFamily: 'Arial',
         fontSize: 8,
         fontWeight: true,
-        fill: '#34495E'
+        fill: '#FFFFFF'
       }
     }
   };
